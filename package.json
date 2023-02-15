@@ -1,0 +1,31 @@
+{
+  "name": "tinder-like",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  },
+  "dependencies": {
+    "@react-spring/web": "^9.5.5",
+    "firebase": "^9.13.0",
+    "firebase-admin": "^11.2.0",
+    "firebase-functions": "^4.0.2",
+    "jwt-decode": "^3.1.2",
+    "react-bootstrap": "^2.5.0",
+    "react-tinder-card": "^1.6.1",
+    "uuid": "^9.0.0"
+  }
+}

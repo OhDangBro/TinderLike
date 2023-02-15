@@ -1,0 +1,23 @@
+* {
+  font-family: sans-serif;
+}
+
+.matchBtn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1em;
+}

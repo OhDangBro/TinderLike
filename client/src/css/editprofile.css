@@ -1,0 +1,29 @@
+.subheader {
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  padding: 1em;
+  position: relative
+}
+
+.subheader img {
+  position: relative;
+  top: 4px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subheader a {
+  position: absolute;
+  left: 0px;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
